@@ -1,5 +1,6 @@
 import ast
 my_file = open("config.json")
+a = "moshe"
 c = dict(ast.literal_eval(my_file.read()))
 # configuration = dict(ast.literal_eval(my_file.read()))
 print(c["name"])
