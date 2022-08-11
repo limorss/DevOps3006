@@ -25,6 +25,7 @@ def logger_dec(function_to_run):
     return wrapper
 
 
+
 @dec
 def print_something():
     print("something")
