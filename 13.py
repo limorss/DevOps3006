@@ -4,11 +4,16 @@ def save_name(names_file):
     my_file.write(current_name + "\n")
     my_file.close()
 
-def show_names(names_file):
+def show_names(names_file, blabla):
     my_file = open(names_file, "r")  # add in the end
     for name in my_file.readlines():
         print(name, end='')
     my_file.close()
+    print(blabla)
+
+
+def moshe(david):
+    print(david)
 
 
 for i in range(5):
