@@ -1,0 +1,49 @@
+print("hello world!")
+a = 4
+print(a)
+b = "Hello 3006"
+print(b)
+c = [1, 2, 3]
+c[1] = "aviel"
+print(c[2])
+d = False
+e = (1, "moshe", False)
+f = ["aviel", "buskila", 32, True]
+g = {"fname": "aviel", "lname": "buskila",
+     "age": 32, "isMarried": True}
+
+h = [{"name": "seva", "age": 25}, {"name": "maor", "age": 38}]
+print(h["name"])
+
+
+
+a = 4
+print(a < 4)
+if a < 4:
+    print("a is small")
+    print("moshe")
+else:
+    print("a is big")
+
+
+
+
+a = 1 + 1
+b = "hello" + " world"
+
+c = a * "aviel"
+d = 12 % 5
+first_name = "hello"
+last_name = "world"
+g = f"{first_name} {last_name}"
+h = "%s %s" % (first_name, last_name)
+i = "{} {}".format(first_name, last_name)
+j = "hello"
+k = 'moshe'
+blabla = "seva \n\"totach\""
+print(blabla)
+print(g)
+print(a)
+print(b)
+print(c)
+print(d)
